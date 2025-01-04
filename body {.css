@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fce4ec; /* Lighter pink background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #e91e63; /* Darker pink */
+    font-size: 2.5rem;
+}
+
+.gif {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px; /* Larger buttons */
+    font-size: 1.5rem; /* Bigger text in buttons */
+    border: none;
+    border-radius: 25px; /* More rounded corners */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 10px; /* Space between buttons */
+}
+
+button#yes {
+    background-color: #ff80ab; /* Lighter pink button */
+    color: #fff;
+}
+
+button#no {
+    background-color: #f06292; /* Stronger pink button */
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Second page styles */
+.second-page h1 {
+    color: #e91e63;
+    font-size: 2.8rem;
+    margin-top: 50px;
+}
+
+.second-page p {
+    font-size: 1.2rem;
+    color: #ff80ab;
+    margin-top: 20px;
+}
+
+.second-page .gif {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
